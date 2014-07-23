@@ -1,0 +1,78 @@
+@charset "utf-8";
+html,body {width: 100%;height: 100%;}
+.w235{width: 255px;height: 132px;background: rgba(202, 187, 211, 0.96);margin:5px;float: left;overflow: hidden; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#50990000,endColorstr=#50990000);}
+.wp55 {width: 53%;}
+.wp45 {width: 47%;}
+.container {
+    position: absolute;
+    width: 100%;
+    min-width: 1124px;
+    height: 100%;
+    min-height: 500px;
+    background: rgba(202, 204, 198, 0.2);
+    filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#00CACCC6', endColorstr='#00CACCC6');background:rgba(202,204,198,0.002);
+    z-index: 2;
+    color: #fff;
+    overflow: hidden;
+}
+
+.container a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 350px;
+    margin-top: 120px;
+    background: rgba(166, 201, 195, 0.6);
+    /*filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#01A6C9C3', endColorstr='#01A6C9C3');background:rgba(166,201,195,0.006);*/
+}
+
+.wrapper-inner {
+    margin: 0 auto;
+    width: 1124px;
+    overflow: hidden;
+}
+
+.left , .right{
+    padding-top: 3%;
+}
+
+.right p {
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.goverment , .policeS , .safeK , .phone {position: relative;border:3px rgba(166, 201, 195, 0.6) solid;}
+
+.sa {
+    padding-top: 105px;
+    padding-left: 10px;
+}
+.goverment a , .safeK a {
+    position: absolute;
+    top: 0;left: 0;
+    height: auto;
+    width: 100%;
+    padding-top: 107px;
+}
+.w235:hover {
+    /*box-sizing: border-box;*/
+    border: 3px #fff solid;
+}
+.goverment a > span , .safeK a > span{
+    display: block;
+    padding: 5px 0;
+    text-align: center;
+    line-height: 15px;
+    background: seagreen;
+}
+ .phone a {
+    background: url("../img/Contact.png") no-repeat center;
+ }
+ .policeS a{
+     background: url("../img/Police.png") no-repeat center;
+ }
